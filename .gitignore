@@ -1,0 +1,40 @@
+# 🐍 Python 캐시 파일 (자동 생성되는 임시 파일)
+__pycache__/
+*.py[cod]
+
+# 📦 가상환경 디렉토리 (venv 등은 저장소에 불필요)
+.venv/
+venv/
+env/
+
+# 📓 Jupyter Notebook 체크포인트 (자동 저장된 중간 파일)
+.ipynb_checkpoints/
+
+# 📝 로그 및 출력 데이터 (실험 로그/결과물은 커밋하지 않음)
+*.log
+runs/
+logs/
+outputs/
+
+# 🎥 비디오/실험 영상 (용량이 커서 Git에 올리면 비효율적)
+*.mp4
+*.avi
+*.mov
+
+# 🤖 머신러닝 모델/데이터 (파일 크기가 커서 제외)
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+
+# 🛠 IDE 개인 설정 (VSCode, PyCharm 등)
+.vscode/
+.idea/
+
+# 💻 운영체제에서 자동 생성되는 파일
+.DS_Store
+Thumbs.db
